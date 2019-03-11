@@ -1,14 +1,19 @@
+import helper.{ExampleLists, IVO}
+
 import scala.concurrent.ExecutionContext
 
 object Map extends App {
   implicit val ec = ExecutionContext.global
 
-  println("Map")
+  val exampleListNoOption: List[IVO] = ExampleLists.noOptions
 
-  //  val exampleList: List[helper.IVO] = ExampleLists.noOptions
-  //  val exampleList: List[helper.IVO] = ExampleLists.optionProperties
-  //  val exampleList: List[Option[helper.IVO]] = ExampleLists.optionObject
-  //  val exampleList: List[Option[helper.IVO]] = ExampleLists.optionObjectAndProperties
+  val exampleListOptionProperties: List[IVO] = ExampleLists.optionProperties
+
+  val exampleListOptionObject: List[Option[IVO]] = ExampleLists.optionObject
+
+  val exampleListOptionObjectAndProperties: List[Option[IVO]] = ExampleLists.optionObjectAndProperties
+
+  println("Map")
 
   //  val dsfdsfg = exampleList.foreach()
   //  val dsfds = exampleList.map()

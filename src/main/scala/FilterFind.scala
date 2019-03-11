@@ -14,4 +14,7 @@ object FilterFind extends App {
   //  val sdfsd = exampleList.filterNot()
   //  val sdfds = exampleList.find()
   //  val dfsd = exampleList.forall()
+  //  val dsdfsd = exampleList.contains()
+  //  val sdfsd = exampleList.count()
+  //  val ddsf = exampleList.exists()
 }

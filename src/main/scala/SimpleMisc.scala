@@ -14,9 +14,6 @@ object SimpleMisc extends App {
   //  val sdfdsf = exampleList.head
   //  val dfgsdf = exampleList.isEmpty
   //  val sdfds = exampleList.tail
-  //  val dsdfsd = exampleList.contains()
-  //  val sdfsd = exampleList.count()
-  //  val ddsf = exampleList.exists()
   //  val edsdsf = exampleList.indexOf()
   //  val sdfdsf = exampleList.indexWhere()
   //  val sdfsd = exampleList.lastIndexOf()

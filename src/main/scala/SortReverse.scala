@@ -12,8 +12,8 @@ object SortReverse extends App {
 
   val exampleListNoOption: List[IVO] = ExampleLists.noOptions
   val reverseNoOption: List[IVO] = exampleListNoOption.reverse
-  val sortByNoOption = exampleListNoOption sortBy (ivo => ivo.number)
-  val sortWithNoOption = exampleListNoOption sortWith ((a, b) => a.number - b.number > 0)
+  val sortByNoOption: List[IVO] = exampleListNoOption sortBy (ivo => ivo.number)
+  val sortWithNoOption: List[IVO] = exampleListNoOption sortWith ((a, b) => a.number - b.number > 0)
 
   val exampleListOptionProperties: List[IVO] = ExampleLists.optionProperties
   val reverseOptionProperties: List[IVO] = exampleListOptionProperties.reverse
