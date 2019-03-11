@@ -1,9 +1,9 @@
 import scala.concurrent.ExecutionContext
 
-object FoldReduce extends App {
+object FoldReduceScan extends App {
   implicit val ec = ExecutionContext.global
 
-  println("FoldReduce")
+  println("FoldReduceScan")
 
   //  val exampleList: List[helper.IVO] = ExampleLists.noOptions
   //  val exampleList: List[helper.IVO] = ExampleLists.optionProperties
@@ -16,4 +16,6 @@ object FoldReduce extends App {
   //  val edfgd = exampleList.reduceLeft()
   //  val edfgd = exampleList.reduceLeftOption()
   //  val edfgd = exampleList.reduceOption()
+  //  val edfgd = exampleList.scan()
+  //  val edfgd = exampleList.scanLeft()
 }
