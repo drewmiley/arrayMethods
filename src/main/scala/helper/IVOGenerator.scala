@@ -1,3 +1,5 @@
+package helper
+
 object IVOGenerator {
   def noOptions(
                  text: String = "",

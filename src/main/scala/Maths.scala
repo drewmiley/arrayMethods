@@ -5,10 +5,10 @@ object Maths extends App {
 
   println("Maths")
 
-  //  val exampleList: List[IVO] = ExampleLists.noOptions
-  //  val exampleList: List[IVO] = ExampleLists.optionProperties
-  //  val exampleList: List[Option[IVO]] = ExampleLists.optionObject
-  //  val exampleList: List[Option[IVO]] = ExampleLists.optionObjectAndProperties
+  //  val exampleList: List[helper.IVO] = ExampleLists.noOptions
+  //  val exampleList: List[helper.IVO] = ExampleLists.optionProperties
+  //  val exampleList: List[Option[helper.IVO]] = ExampleLists.optionObject
+  //  val exampleList: List[Option[helper.IVO]] = ExampleLists.optionObjectAndProperties
 
   //  val edfgd = exampleList.max
   //  val edfgd = exampleList.maxBy

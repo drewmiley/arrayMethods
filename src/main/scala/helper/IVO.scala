@@ -1,3 +1,5 @@
+package helper
+
 case class IVO(
                 text: String = "",
                 textOption: Option[String] = None,
