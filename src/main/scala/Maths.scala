@@ -22,9 +22,9 @@ object Maths extends App {
 
   val exampleListOptionObject: List[Option[IVO]] = ExampleLists.optionObject
   val maxOptionObject = exampleListOptionObject maxBy
-    (ivo => ivo.getOrElse(IVO()).numberOption.getOrElse(0.toDouble))
+    (ivo => ivo.getOrElse(IVO()).number)
   val minOptionObject = exampleListOptionObject minBy
-    (ivo => ivo.getOrElse(IVO()).numberOption.getOrElse(0.toDouble))
+    (ivo => ivo.getOrElse(IVO()).number)
 
   val exampleListOptionObjectAndProperties: List[Option[IVO]] = ExampleLists.optionObjectAndProperties
   val maxOptionObjectAndProperties = exampleListOptionObjectAndProperties maxBy
